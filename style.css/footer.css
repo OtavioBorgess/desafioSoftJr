@@ -1,0 +1,168 @@
+footer {
+    margin-top: 50px;
+    background-color: #0dc6fe;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px 30px 0 0;
+}
+
+.conteiner-items-footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin: 50px 30px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+.items-subscribe {
+    width: 25%;
+}
+
+.items-subscribe p {
+    line-height: 22px;
+    font-size: 0.75em;
+}
+
+.email-container {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    border-radius: 10px;
+   
+    width: 260px;
+    height: 50px;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.email-input {
+    border: none;
+    background: transparent;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white; 
+}
+
+.email-input:focus{
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    outline: none;
+    border-radius: 5px;
+}
+
+.email-input::placeholder {
+    color: white;
+    opacity: 0.7; 
+}
+
+.submit-btn {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn img {
+    width: 20px;
+}
+
+li {
+    list-style: none;
+    font-size: 0.8em;
+    line-height: 28px;
+}
+
+.conteiner-contact {
+    width: 25%;
+}
+
+.items-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.span-contact {
+    font-size: 0.75em;
+}
+
+.sla {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 3px;
+}
+
+.div-img-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 27px;
+    height: 27px;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    border-radius: 5px;
+}
+
+#email {
+    width: 15px;
+}
+
+#localizacao {
+    width: 15px
+}
+
+.text-content-footer {
+    background-color: white;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px auto;
+}
+
+#logo-rodape {
+    margin: 0 30px;
+}
+
+.span {
+    color: grey;
+    font-size: 0.9em;
+}
+
+.img-footer {
+    width: 20px;
+}
+
+.conteiner-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.div-img {
+    background-color: rgb(232 250 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
